@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="/css/contactus.css" />
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  
+<body>
+
+<!----------------------------Header Section------------------------------------->
+<header>
+  <div class="header-container">
+    <div class="image-logo">
+      <img src="/image/logo.jpg" height="45px" width="auto" alt="Euphoria logo">
+    </div>
+
+    <h1 class="logo">Euphoria :)</h1>
+
+    <div class="useradmin-links">
+      <a href="/pages/login.html">Login</a>
+      <a href="/pages/register.html">Register</a>
+    </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="/pages/products.html">Product</a></li>
+        <li><a href="/pages/aboutus.html">About Us</a></li>
+        <li><a href="/pages/contactus.html">Contact Us</a></li>
+        <li><a href="/pages/review.html">Review</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search...">
+      </div>
+
+      <div class="user-icon">
+        <a href="#"><i class="far fa-user"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!------------------------Contact Section------------------------------------->
+  <section class="contact-page">
+  
+<!------------------------Contact Us------------------------------------------>
+    <div class="contact-header">
+      <h1>CONTACT US</h1>
+      <p>Let’s work together!<br/>Have a question or just want to say hello? Reach out to us.</p>
+    </div>
+
+<!------------------------Container------------------------------------------->
+    <div class="contact-container">
+    
+<!------------------Left Side: Info & Map------------------------------------->
+      <div class="contact-info">
+        <div class="info-block">
+          <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+          <p><i class="fas fa-envelope"></i> euphoriabeauty@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +977 9876543210</p>
+        </div>
+           
+       <div class="map-box">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7066.447421281175!2d85.32314434999999!3d27.679479800000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19c863656a8f%3A0xf3ecc697da608c63!2sPatan%20Dhoka%2C%20Lalitpur%2044600!5e0!3m2!1sen!2snp!4v1745186020121!5m2!1sen!2snp"
+    width="100%"
+    height="300"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+</div>
+
+<!--------------------Right Side: Form------------------------------------------->
+     <div class="contact-form">
+  <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+
+    <button type="submit">Send Message</button>
+
+<!---------------------Success Message-------------------------------------------->
+    <div id="successMessage" class="success-message">Thank you! Your message has been sent. 💌</div>
+  </form>
+</div>
+    </div>
+  </section>
+  
+ <!---------------------Footer Section--------------------------------------------> 
+  <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <ul>
+          <li><h1>Company</h1><br></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="https://maps.app.goo.gl/sKiMr84LqrqznrMm6">Address: Patan, Jhatapol, Lalitpur</a></li>
+          <h1>Contact Details</h1>
+          <li><a>Email: Euphoria25@gmail.com</a></li>
+          <li><a>Phone: +977-8908909890</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <ul>
+          <h1>Quick Links</h1><br>
+          <li><a href="/pages/home.html">Home</a></li>
+          <li><a href="/pages/products.html">Products</a></li>
+          <li><a href="review.html">Reviews</a></li>
+          <li><a href="/pages/login.html">Login</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <ul>
+          <h1>Trusted Brands</h1><br>
+          <li><a href="https://www.elfcosmetics.com">Elf</a></li>
+          <li><a href="https://www.dior.com/">Dior</a></li>
+          <li><a href="https://www.loreal.com/">L'Oréal Paris</a></li>
+          <li><a href="https://www.chanel.com/">Chanel</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="payment-apps">
+          <h1>Payment Available</h1>
+          <img src="/image/Esewa_logo.jpg" width="200px" height="100px" title="eSewa">
+        </div>
+      </div>
+
+      <div class="footer-end">
+        <br>
+        <p>&copy;2000–2025 Euphoria. All Rights Reserved.</p>
+        <p>Created by Euphoria</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-------------------------JavaScript for success message------------------------------>
+<script>
+  const form = document.getElementById("contactForm");
+  const success = document.getElementById("successMessage");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent form from actually submitting
+
+    // Simulate message sending delay
+    setTimeout(() => {
+      success.classList.add("show"); // Show the message with transition
+      this.reset(); // Reset form fields
+
+      // Hide the success message after 5 seconds
+      setTimeout(() => {
+        success.classList.remove("show");
+      }, 5000);
+    }, 500);
+  });
+</script>
+</body>
+</html>
